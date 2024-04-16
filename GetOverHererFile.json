@@ -1,0 +1,20 @@
+{
+
+    "defaultHeaders": [
+        {
+            "key":"Accept",
+            "value":"*/*"
+        },
+        {
+            "key":"Accept-Encoding",
+            "value":"gzip, deflate, br"
+
+        },
+        {
+            "key":"Connection",
+            "value":"keep-alive"
+        }
+
+    ],
+    "curlOptions":"--location --silent --show-error"
+}

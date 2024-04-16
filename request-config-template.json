@@ -1,0 +1,28 @@
+{
+    "environment": "dev",
+    "name":"Name of the API",
+    "description":"Some optional description",
+    "method":"GET",
+    "uri":"${API_URL}/rest/important-api",
+    "outputFormat": "json",
+    "params": [
+        {
+            "key": "param1",
+            "value": "value1"
+        },
+        {
+            "key": "param2",
+            "value": "value2"
+        }
+    ],
+    "headers": [
+        {
+            "key":"Important-header",
+            "value":"Important value"
+        },
+        {
+            "key":"Another-Important-Header",
+            "value":"Another important value"
+        }
+    ]
+}
