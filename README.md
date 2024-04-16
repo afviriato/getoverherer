@@ -115,10 +115,10 @@ To run this script you just need:
 
 ### How to use
 First of all you need to download the script and put it in some directory in your OS.
-In order to make things easier you could create a symbolic link with the script's "nick name". To do that navigate
-to the directory where you saved the script and run the follow command:
+Now you need to give execution permission to the script and its synbolic linkk. To do that navigate
+to the directory where you saved the script and run the follow commands:
 ```
-ln -s getoverherer.sh goh
+sudo chmod +x getoverherer.sh && sudo chmod +x goh
 ```
 After that add the directory where you save the script in the previous step in the PATH variable.
 You can do that by putting the follow line in you "/etc/environment" file or "~/.bashrc" file or "~/.profile" file
