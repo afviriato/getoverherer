@@ -24,6 +24,7 @@ To run this script you just need:
 
 ### Project structure
 - `getoverhere.sh`: The script itself.
+- `goh`: A symbolic link to make the things easier.
 - `GetOverHererFile.json`: The default configuration file. This file is a template for the default configurations file. See [how to use](#how-to-use) for further informations. The file contents is showing bellow:
     ```
     {
